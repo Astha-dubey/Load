@@ -1,12 +1,55 @@
 body {
   background-color: aqua
 }
+.nav-ul li{
+/* float: right; */
+   display:inline ; 
+  padding: 10px;
+}
+.nav-ul li a{
 
-.app {
-  text-align: center;
+  color: #fff;
+    padding: 5px;
+    text-decoration: none;
 }
 
-.container {
+.nav-ul{
+  
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
+}
+.Footer{
+  position: absolute;
+  bottom:0;
+  text-align:center;
+  width:100%;
+  background-color: skyblue;
+}
+.inputBox{
+  margin:25px;
+  display:block;
+  padding: 7px;
+  width: 300px;
+  border:1px solid skyblue;
+}
+.register{
+  margin-left: 30%;
+}
+.appbutton{
+  margin:25px;
+  padding: 10px;
+  width: 150px;
+  border:1px solid;
+  background-color: rgb(135, 138, 235);
+cursor: pointer;
+}
+
+/* /* .app {
+  text-align: center;
+} */
+
+ .container {
   background-color: rgb(7, 2, 71);
   justify-content: center;
   width: 50%;
@@ -25,9 +68,9 @@ border: 1px solid #ccc;
 border-radius: 4px;
 box-sizing:border-box;
 }
-button{
+ button{
 width:15%;
-background-color: #4CAF50;
+background-color: skyblue;
 color: black;
 padding: 14px 20px;
 margin: 8px 0 ;
@@ -37,8 +80,8 @@ cursor: pointer;
 font-weight: bold;
 }
 button:hover {
-  background-color: #45a049;
-}
+  background-color: #82a045;
+} 
 .header{
 width:100%;
 padding:12px 20px;
@@ -68,4 +111,4 @@ border-radius: 10px;
   position: relative;
   left:11%;
   top: -54px;
-}
+} 
